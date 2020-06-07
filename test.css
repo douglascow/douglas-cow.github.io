@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+img {
+    border: 5px solid salmon;
+    padding: 100px;
+    margin: 20px;
+    transition: all 0.5s; 
+}
+
+img:hover {
+    transform: scale(1.2);
+}
